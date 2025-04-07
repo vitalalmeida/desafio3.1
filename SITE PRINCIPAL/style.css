@@ -35,10 +35,20 @@ body{
   border: 0;
   border-radius: 30px; /* ARREDONDAR BORDA */
   cursor: pointer /* TROCAR SETA POR MAOZINHA*/
-  
-  
+   
 }
-
+.btn-inscreva button{
+  transition: .2s;
+  padding: 10px 40px; /* ESPACAMENTO DENTRO DO BOTAO*/
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #00c8ff;
+  border: 0;
+  color: #fff;
+  border-radius: 30px; /* ARREDONDAR BORDA */
+  cursor: pointer /* TROCAR SETA POR MAOZINHA*/
+    
+}
 h2.titulo{ 
   color: #fff;
   font-size: 38px;
@@ -146,6 +156,10 @@ font-size: 30px;
 
 /* ESTILO DO BOTAO*/
 .btn-contato button:hover{
+  box-shadow: 0px 0px 8px #00c8ff; /* SOMBRA AZUL AO PASSAR O MOUSE*/
+  transform: scale(1.1) ;
+}
+.btn-inscreva button:hover{
   box-shadow: 0px 0px 8px #00c8ff; /* SOMBRA AZUL AO PASSAR O MOUSE*/
   transform: scale(1.1) ;
 }
