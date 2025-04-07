@@ -461,7 +461,7 @@ display:;
   .topo-do-site .flex{
     flex-direction: column-reverse;
   }
-  .menu-desktop, .btn-contato{
+  .menu-desktop {
     display: none;
   }
 
